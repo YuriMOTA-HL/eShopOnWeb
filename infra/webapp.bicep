@@ -1,6 +1,6 @@
 param webAppName string
 
-param sku string = 'S1'
+param sku string = 'F1'
 
 param location string = resourceGroup().location
 
