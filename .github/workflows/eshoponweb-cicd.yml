@@ -73,7 +73,7 @@ jobs:
           name: bicep-template
           path: bicep-template
 
-      #Login in your azure subscription using a service principal (credentials stored as GitHub Secret in repo)
+      # Login to Azure using GitHub Actions OIDC federation (no client secret required)
       - name: Azure Login
         uses: azure/login@v2
         with:
