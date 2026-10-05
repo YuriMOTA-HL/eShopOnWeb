@@ -12,7 +12,7 @@ env:
   RESOURCE-GROUP: rg-eshoponweb-westeurope
   LOCATION: westeurope
   TEMPLATE-FILE: infra/webapp.bicep
-  SUBSCRIPTION-ID: YOUR-SUBS-ID
+  SUBSCRIPTION-ID: ${{ vars.AZURE_SUBSCRIPTION_ID }}
   WEBAPP-NAME: devops-webapp-westeurope-3019731626
 
 jobs:
