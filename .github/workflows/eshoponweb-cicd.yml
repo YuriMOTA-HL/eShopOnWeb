@@ -71,9 +71,6 @@ jobs:
           name: bicep-template
           path: bicep-template
 
-      - name: Debug OIDC Subject
-        uses: github/actions-oidc-debugger@main
-
       # Login to Azure using GitHub Actions OIDC federation (no client secret required)
       - name: Azure Login
         uses: azure/login@v2
